@@ -6,7 +6,9 @@
     "title": "AI-Generated Reel 1",
     "brand": null,
     "src": "/projects/ai-content/821a5fb02064f830d743b4d5534537c0-1.mp4",
-    "poster": "/projects/ai-content/821a5fb02064f830d743b4d5534537c0-1-poster.jpg"
+    "poster": "/projects/ai-content/821a5fb02064f830d743b4d5534537c0-1-poster.jpg",
+    "width": 540,
+    "height": 960
   },
   {
     "slug": "reel-03-2-2",
@@ -15,7 +17,9 @@
     "title": "AI-Generated Reel 2",
     "brand": null,
     "src": "/projects/ai-content/reel-03-2-2.mp4",
-    "poster": "/projects/ai-content/reel-03-2-2-poster.jpg"
+    "poster": "/projects/ai-content/reel-03-2-2-poster.jpg",
+    "width": 540,
+    "height": 960
   },
   {
     "slug": "reel04-3",
@@ -24,7 +28,9 @@
     "title": "AI-Generated Reel 3",
     "brand": null,
     "src": "/projects/ai-content/reel04-3.mp4",
-    "poster": "/projects/ai-content/reel04-3-poster.jpg"
+    "poster": "/projects/ai-content/reel04-3-poster.jpg",
+    "width": 540,
+    "height": 960
   },
   {
     "slug": "gemini-generated-image-5b2gcr5b2gcr5b2g-4",
@@ -32,7 +38,9 @@
     "category": "ai-content",
     "title": "Sun Crush Product Render 1",
     "brand": "Sun Crush Energy Drink",
-    "src": "/projects/ai-content/gemini-generated-image-5b2gcr5b2gcr5b2g-4.png"
+    "src": "/projects/ai-content/gemini-generated-image-5b2gcr5b2gcr5b2g-4.png",
+    "width": 1024,
+    "height": 1024
   },
   {
     "slug": "gemini-generated-image-5gy7l45gy7l45gy7-5",
@@ -40,7 +48,9 @@
     "category": "ai-content",
     "title": "Sun Crush Product Render 2",
     "brand": "Sun Crush Energy Drink",
-    "src": "/projects/ai-content/gemini-generated-image-5gy7l45gy7l45gy7-5.png"
+    "src": "/projects/ai-content/gemini-generated-image-5gy7l45gy7l45gy7-5.png",
+    "width": 1024,
+    "height": 1024
   },
   {
     "slug": "gemini-generated-image-p367cfp367cfp367-6",
@@ -48,7 +58,9 @@
     "category": "ai-content",
     "title": "Sun Crush Product Render 3",
     "brand": "Sun Crush Energy Drink",
-    "src": "/projects/ai-content/gemini-generated-image-p367cfp367cfp367-6.png"
+    "src": "/projects/ai-content/gemini-generated-image-p367cfp367cfp367-6.png",
+    "width": 1024,
+    "height": 1024
   },
   {
     "slug": "gemini-generated-image-pwfq6rpwfq6rpwfq-7",
@@ -56,7 +68,9 @@
     "category": "ai-content",
     "title": "Sun Crush Product Render 4",
     "brand": "Sun Crush Energy Drink",
-    "src": "/projects/ai-content/gemini-generated-image-pwfq6rpwfq6rpwfq-7.png"
+    "src": "/projects/ai-content/gemini-generated-image-pwfq6rpwfq6rpwfq-7.png",
+    "width": 1024,
+    "height": 1024
   },
   {
     "slug": "gemini-generated-image-t8yhbdt8yhbdt8yh-8",
@@ -64,7 +78,9 @@
     "category": "ai-content",
     "title": "Sun Crush Product Render 5",
     "brand": "Sun Crush Energy Drink",
-    "src": "/projects/ai-content/gemini-generated-image-t8yhbdt8yhbdt8yh-8.png"
+    "src": "/projects/ai-content/gemini-generated-image-t8yhbdt8yhbdt8yh-8.png",
+    "width": 1024,
+    "height": 1024
   },
   {
     "slug": "suncrush-ad-9",
@@ -73,7 +89,9 @@
     "title": "Sun Crush Ad Reel",
     "brand": "Sun Crush Energy Drink",
     "src": "/projects/ai-content/suncrush-ad-9.mp4",
-    "poster": "/projects/ai-content/suncrush-ad-9-poster.jpg"
+    "poster": "/projects/ai-content/suncrush-ad-9-poster.jpg",
+    "width": 540,
+    "height": 960
   },
   {
     "slug": "sungrush-10",
@@ -81,7 +99,9 @@
     "category": "ai-content",
     "title": "Sun Crush Product Render 6",
     "brand": "Sun Crush Energy Drink",
-    "src": "/projects/ai-content/sungrush-10.jpg"
+    "src": "/projects/ai-content/sungrush-10.jpg",
+    "width": 500,
+    "height": 500
   },
   {
     "slug": "5a7ae600-1fad-4008-a714-a3007ae0c4ee-11",
@@ -89,7 +109,9 @@
     "category": "campaign-results",
     "title": "Ad Campaign Result 1",
     "brand": null,
-    "src": "/projects/campaign-results/5a7ae600-1fad-4008-a714-a3007ae0c4ee-11.jpg"
+    "src": "/projects/campaign-results/5a7ae600-1fad-4008-a714-a3007ae0c4ee-11.jpg",
+    "width": 1115,
+    "height": 812
   },
   {
     "slug": "5d745d33-45cc-4561-a3a4-51166a718bed-12",
@@ -97,7 +119,9 @@
     "category": "campaign-results",
     "title": "Ad Campaign Result 2",
     "brand": null,
-    "src": "/projects/campaign-results/5d745d33-45cc-4561-a3a4-51166a718bed-12.jpg"
+    "src": "/projects/campaign-results/5d745d33-45cc-4561-a3a4-51166a718bed-12.jpg",
+    "width": 1077,
+    "height": 834
   },
   {
     "slug": "be83546e-8d5f-4e3c-9df5-481de30e3bc9-13",
@@ -105,7 +129,9 @@
     "category": "campaign-results",
     "title": "Ad Campaign Result 3",
     "brand": null,
-    "src": "/projects/campaign-results/be83546e-8d5f-4e3c-9df5-481de30e3bc9-13.jpg"
+    "src": "/projects/campaign-results/be83546e-8d5f-4e3c-9df5-481de30e3bc9-13.jpg",
+    "width": 1059,
+    "height": 814
   },
   {
     "slug": "img-6294-14",
@@ -113,7 +139,9 @@
     "category": "campaign-results",
     "title": "Ad Campaign Result 4",
     "brand": null,
-    "src": "/projects/campaign-results/img-6294-14.jpg"
+    "src": "/projects/campaign-results/img-6294-14.jpg",
+    "width": 1600,
+    "height": 618
   },
   {
     "slug": "img-6295-15",
@@ -121,7 +149,9 @@
     "category": "campaign-results",
     "title": "Ad Campaign Result 5",
     "brand": null,
-    "src": "/projects/campaign-results/img-6295-15.jpg"
+    "src": "/projects/campaign-results/img-6295-15.jpg",
+    "width": 1245,
+    "height": 616
   },
   {
     "slug": "img-6296-16",
@@ -129,7 +159,9 @@
     "category": "campaign-results",
     "title": "Ad Campaign Result 6",
     "brand": null,
-    "src": "/projects/campaign-results/img-6296-16.jpg"
+    "src": "/projects/campaign-results/img-6296-16.jpg",
+    "width": 1483,
+    "height": 788
   },
   {
     "slug": "img-6297-17",
@@ -137,7 +169,9 @@
     "category": "campaign-results",
     "title": "Ad Campaign Result 7",
     "brand": null,
-    "src": "/projects/campaign-results/img-6297-17.jpg"
+    "src": "/projects/campaign-results/img-6297-17.jpg",
+    "width": 1311,
+    "height": 638
   },
   {
     "slug": "img-6299-18",
@@ -145,7 +179,9 @@
     "category": "campaign-results",
     "title": "Ad Campaign Result 8",
     "brand": null,
-    "src": "/projects/campaign-results/img-6299-18.jpg"
+    "src": "/projects/campaign-results/img-6299-18.jpg",
+    "width": 1203,
+    "height": 662
   },
   {
     "slug": "img-6300-19",
@@ -153,7 +189,9 @@
     "category": "campaign-results",
     "title": "Ad Campaign Result 9",
     "brand": null,
-    "src": "/projects/campaign-results/img-6300-19.jpg"
+    "src": "/projects/campaign-results/img-6300-19.jpg",
+    "width": 1224,
+    "height": 652
   },
   {
     "slug": "img-6301-20",
@@ -161,7 +199,9 @@
     "category": "campaign-results",
     "title": "Ad Campaign Result 10",
     "brand": null,
-    "src": "/projects/campaign-results/img-6301-20.jpg"
+    "src": "/projects/campaign-results/img-6301-20.jpg",
+    "width": 1310,
+    "height": 658
   },
   {
     "slug": "img-6302-21",
@@ -169,7 +209,9 @@
     "category": "campaign-results",
     "title": "Ad Campaign Result 11",
     "brand": null,
-    "src": "/projects/campaign-results/img-6302-21.jpg"
+    "src": "/projects/campaign-results/img-6302-21.jpg",
+    "width": 1398,
+    "height": 520
   },
   {
     "slug": "img-6303-22",
@@ -177,7 +219,9 @@
     "category": "campaign-results",
     "title": "Ad Campaign Result 12",
     "brand": null,
-    "src": "/projects/campaign-results/img-6303-22.jpg"
+    "src": "/projects/campaign-results/img-6303-22.jpg",
+    "width": 1327,
+    "height": 838
   },
   {
     "slug": "img-6304-23",
@@ -185,7 +229,9 @@
     "category": "campaign-results",
     "title": "Ad Campaign Result 13",
     "brand": null,
-    "src": "/projects/campaign-results/img-6304-23.jpg"
+    "src": "/projects/campaign-results/img-6304-23.jpg",
+    "width": 1259,
+    "height": 840
   },
   {
     "slug": "1-24",
@@ -193,7 +239,9 @@
     "category": "posters",
     "title": "Nubes eSIM Campaign Post",
     "brand": "Nubes eSIM",
-    "src": "/projects/posters/1-24.jpg"
+    "src": "/projects/posters/1-24.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "2-25",
@@ -201,7 +249,9 @@
     "category": "posters",
     "title": "Nubes eSIM Campaign Post",
     "brand": "Nubes eSIM",
-    "src": "/projects/posters/2-25.jpg"
+    "src": "/projects/posters/2-25.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "3-1-26",
@@ -209,7 +259,9 @@
     "category": "posters",
     "title": "Nubes eSIM Campaign Post",
     "brand": "Nubes eSIM",
-    "src": "/projects/posters/3-1-26.jpg"
+    "src": "/projects/posters/3-1-26.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "3-27",
@@ -217,7 +269,9 @@
     "category": "posters",
     "title": "Nubes eSIM Campaign Post",
     "brand": "Nubes eSIM",
-    "src": "/projects/posters/3-27.jpg"
+    "src": "/projects/posters/3-27.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "4-1-28",
@@ -225,7 +279,9 @@
     "category": "posters",
     "title": "Nubes eSIM Campaign Post",
     "brand": "Nubes eSIM",
-    "src": "/projects/posters/4-1-28.jpg"
+    "src": "/projects/posters/4-1-28.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "4-29",
@@ -233,7 +289,9 @@
     "category": "posters",
     "title": "Nubes eSIM Campaign Post",
     "brand": "Nubes eSIM",
-    "src": "/projects/posters/4-29.jpg"
+    "src": "/projects/posters/4-29.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "5-1-30",
@@ -241,7 +299,9 @@
     "category": "posters",
     "title": "Nubes eSIM Campaign Post",
     "brand": "Nubes eSIM",
-    "src": "/projects/posters/5-1-30.jpg"
+    "src": "/projects/posters/5-1-30.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "5-31",
@@ -249,7 +309,9 @@
     "category": "posters",
     "title": "Nubes eSIM Campaign Post",
     "brand": "Nubes eSIM",
-    "src": "/projects/posters/5-31.jpg"
+    "src": "/projects/posters/5-31.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "6-32",
@@ -257,7 +319,9 @@
     "category": "posters",
     "title": "Nubes eSIM Campaign Post",
     "brand": "Nubes eSIM",
-    "src": "/projects/posters/6-32.jpg"
+    "src": "/projects/posters/6-32.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "be-classy-giogoi-2-33",
@@ -265,7 +329,9 @@
     "category": "posters",
     "title": "Be Classy Giogoi",
     "brand": "Giogoi Fashion",
-    "src": "/projects/posters/be-classy-giogoi-2-33.jpg"
+    "src": "/projects/posters/be-classy-giogoi-2-33.jpg",
+    "width": 1080,
+    "height": 1350
   },
   {
     "slug": "be-classy-giogoi-34",
@@ -273,7 +339,9 @@
     "category": "posters",
     "title": "Be Classy Giogoi",
     "brand": "Giogoi Fashion",
-    "src": "/projects/posters/be-classy-giogoi-34.jpg"
+    "src": "/projects/posters/be-classy-giogoi-34.jpg",
+    "width": 1080,
+    "height": 1350
   },
   {
     "slug": "deal-of-the-day-post-35",
@@ -281,7 +349,9 @@
     "category": "posters",
     "title": "Deal Of The Day Post",
     "brand": "City Super",
-    "src": "/projects/posters/deal-of-the-day-post-35.jpg"
+    "src": "/projects/posters/deal-of-the-day-post-35.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "elavate-look-giogoi-36",
@@ -289,7 +359,9 @@
     "category": "posters",
     "title": "Elavate Look Giogoi",
     "brand": "Giogoi Fashion",
-    "src": "/projects/posters/elavate-look-giogoi-36.jpg"
+    "src": "/projects/posters/elavate-look-giogoi-36.jpg",
+    "width": 1080,
+    "height": 1350
   },
   {
     "slug": "giogoi-fashion-37",
@@ -297,7 +369,9 @@
     "category": "posters",
     "title": "Giogoi Fashion",
     "brand": "Giogoi Fashion",
-    "src": "/projects/posters/giogoi-fashion-37.jpg"
+    "src": "/projects/posters/giogoi-fashion-37.jpg",
+    "width": 1080,
+    "height": 1350
   },
   {
     "slug": "hijama-post-dr-shakira-back-38",
@@ -305,7 +379,9 @@
     "category": "posters",
     "title": "Hijama Post Dr.Shakira Back",
     "brand": "Dr. Shakira Wellness",
-    "src": "/projects/posters/hijama-post-dr-shakira-back-38.jpg"
+    "src": "/projects/posters/hijama-post-dr-shakira-back-38.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "hijama-post-dr-shakira-front-39",
@@ -313,7 +389,9 @@
     "category": "posters",
     "title": "Hijama Post Dr.Shakira Front",
     "brand": "Dr. Shakira Wellness",
-    "src": "/projects/posters/hijama-post-dr-shakira-front-39.jpg"
+    "src": "/projects/posters/hijama-post-dr-shakira-front-39.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "hijama-post-dr-shakira-40",
@@ -321,7 +399,9 @@
     "category": "posters",
     "title": "Hijama Post Dr.Shakira",
     "brand": "Dr. Shakira Wellness",
-    "src": "/projects/posters/hijama-post-dr-shakira-40.jpg"
+    "src": "/projects/posters/hijama-post-dr-shakira-40.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "hijama-post-1-1-dr-shakira-41",
@@ -329,7 +409,9 @@
     "category": "posters",
     "title": "Hijama Post 1.1 Dr.Shakira",
     "brand": "Dr. Shakira Wellness",
-    "src": "/projects/posters/hijama-post-1-1-dr-shakira-41.jpg"
+    "src": "/projects/posters/hijama-post-1-1-dr-shakira-41.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "hijama-sunnah-post-1-dr-shakira-42",
@@ -337,7 +419,9 @@
     "category": "posters",
     "title": "Hijama Sunnah Post 1 Dr.Shakira",
     "brand": "Dr. Shakira Wellness",
-    "src": "/projects/posters/hijama-sunnah-post-1-dr-shakira-42.jpg"
+    "src": "/projects/posters/hijama-sunnah-post-1-dr-shakira-42.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "hijama-wellness-in-women-post-dr-shakira-5-43",
@@ -345,7 +429,9 @@
     "category": "posters",
     "title": "Hijama Wellness In Women Post Dr.Shakira 5",
     "brand": "Dr. Shakira Wellness",
-    "src": "/projects/posters/hijama-wellness-in-women-post-dr-shakira-5-43.jpg"
+    "src": "/projects/posters/hijama-wellness-in-women-post-dr-shakira-5-43.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "img-6020-44",
@@ -353,7 +439,9 @@
     "category": "posters",
     "title": "Web Development & AI Masterclass Ad",
     "brand": "MernCrest Solution",
-    "src": "/projects/posters/img-6020-44.jpg"
+    "src": "/projects/posters/img-6020-44.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "img-6099-45",
@@ -361,7 +449,9 @@
     "category": "posters",
     "title": "Iftar Food Pack Promo",
     "brand": "Wellampitiya Bakery",
-    "src": "/projects/posters/img-6099-45.jpg"
+    "src": "/projects/posters/img-6099-45.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "ketystone-germany-post-46",
@@ -369,7 +459,9 @@
     "category": "posters",
     "title": "Ketystone Germany Post",
     "brand": "Keystone Shipping",
-    "src": "/projects/posters/ketystone-germany-post-46.jpg"
+    "src": "/projects/posters/ketystone-germany-post-46.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "motha-offer-post-city-super-47",
@@ -377,7 +469,9 @@
     "category": "posters",
     "title": "Motha Offer Post City Super",
     "brand": "City Super",
-    "src": "/projects/posters/motha-offer-post-city-super-47.jpg"
+    "src": "/projects/posters/motha-offer-post-city-super-47.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "new-zealand-post-keystone-48",
@@ -385,7 +479,9 @@
     "category": "posters",
     "title": "New Zealand Post Keystone",
     "brand": "Keystone Shipping",
-    "src": "/projects/posters/new-zealand-post-keystone-48.jpg"
+    "src": "/projects/posters/new-zealand-post-keystone-48.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "noodles-post-city-super-49",
@@ -393,7 +489,9 @@
     "category": "posters",
     "title": "Noodles Post City Super",
     "brand": "City Super",
-    "src": "/projects/posters/noodles-post-city-super-49.jpg"
+    "src": "/projects/posters/noodles-post-city-super-49.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "noodles-post-1-city-super-50",
@@ -401,7 +499,9 @@
     "category": "posters",
     "title": "Noodles Post 1 City Super",
     "brand": "City Super",
-    "src": "/projects/posters/noodles-post-1-city-super-50.jpg"
+    "src": "/projects/posters/noodles-post-1-city-super-50.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "now-51",
@@ -409,7 +509,9 @@
     "category": "posters",
     "title": "UK Study & Migration Campaign",
     "brand": "Keystone Overseas",
-    "src": "/projects/posters/now-51.jpg"
+    "src": "/projects/posters/now-51.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "painkiller-post-dr-shakira-52",
@@ -417,7 +519,9 @@
     "category": "posters",
     "title": "Painkiller Post Dr.Shakira",
     "brand": "Dr. Shakira Wellness",
-    "src": "/projects/posters/painkiller-post-dr-shakira-52.jpg"
+    "src": "/projects/posters/painkiller-post-dr-shakira-52.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "pentagon-social-media-post-1-53",
@@ -425,7 +529,9 @@
     "category": "posters",
     "title": "Pentagon Social Media Post 1",
     "brand": "Pentagon",
-    "src": "/projects/posters/pentagon-social-media-post-1-53.jpg"
+    "src": "/projects/posters/pentagon-social-media-post-1-53.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "pentagon-social-media-post-5-54",
@@ -433,7 +539,9 @@
     "category": "posters",
     "title": "Pentagon Social Media Post 5",
     "brand": "Pentagon",
-    "src": "/projects/posters/pentagon-social-media-post-5-54.jpg"
+    "src": "/projects/posters/pentagon-social-media-post-5-54.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "post-01-55",
@@ -441,7 +549,9 @@
     "category": "posters",
     "title": "Nubes eSIM Campaign Post",
     "brand": "Nubes eSIM",
-    "src": "/projects/posters/post-01-55.jpg"
+    "src": "/projects/posters/post-01-55.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "post-2-56",
@@ -449,7 +559,9 @@
     "category": "posters",
     "title": "Nubes eSIM Campaign Post",
     "brand": "Nubes eSIM",
-    "src": "/projects/posters/post-2-56.jpg"
+    "src": "/projects/posters/post-2-56.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "sakura-soap-post-city-super-57",
@@ -457,7 +569,9 @@
     "category": "posters",
     "title": "Sakura Soap Post City Super",
     "brand": "City Super",
-    "src": "/projects/posters/sakura-soap-post-city-super-57.jpg"
+    "src": "/projects/posters/sakura-soap-post-city-super-57.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "signs-for-detox-post-dr-shakira-urudu-58",
@@ -465,7 +579,9 @@
     "category": "posters",
     "title": "Signs For Detox Post Dr.Shakira Urudu.",
     "brand": "Dr. Shakira Wellness",
-    "src": "/projects/posters/signs-for-detox-post-dr-shakira-urudu-58.jpg"
+    "src": "/projects/posters/signs-for-detox-post-dr-shakira-urudu-58.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "signs-for-detox-post-dr-shakira-59",
@@ -473,7 +589,9 @@
     "category": "posters",
     "title": "Signs For Detox Post Dr.Shakira",
     "brand": "Dr. Shakira Wellness",
-    "src": "/projects/posters/signs-for-detox-post-dr-shakira-59.jpg"
+    "src": "/projects/posters/signs-for-detox-post-dr-shakira-59.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "sofa-post-1-60",
@@ -481,7 +599,9 @@
     "category": "posters",
     "title": "Sofa Post 1",
     "brand": "Home & Furniture",
-    "src": "/projects/posters/sofa-post-1-60.jpg"
+    "src": "/projects/posters/sofa-post-1-60.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "sofa-post-3-61",
@@ -489,7 +609,9 @@
     "category": "posters",
     "title": "Sofa Post 3",
     "brand": "Home & Furniture",
-    "src": "/projects/posters/sofa-post-3-61.jpg"
+    "src": "/projects/posters/sofa-post-3-61.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "sofa-post-4-62",
@@ -497,7 +619,9 @@
     "category": "posters",
     "title": "Sofa Post 4",
     "brand": "Home & Furniture",
-    "src": "/projects/posters/sofa-post-4-62.jpg"
+    "src": "/projects/posters/sofa-post-4-62.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "the-moment-giogoi-post-63",
@@ -505,7 +629,9 @@
     "category": "posters",
     "title": "The Moment Giogoi Post",
     "brand": "Giogoi Fashion",
-    "src": "/projects/posters/the-moment-giogoi-post-63.jpg"
+    "src": "/projects/posters/the-moment-giogoi-post-63.jpg",
+    "width": 1080,
+    "height": 1350
   },
   {
     "slug": "the-moment-giogoi-post-64",
@@ -513,7 +639,9 @@
     "category": "posters",
     "title": "The Moment Giogoi Post",
     "brand": "Giogoi Fashion",
-    "src": "/projects/posters/the-moment-giogoi-post-64.jpg"
+    "src": "/projects/posters/the-moment-giogoi-post-64.jpg",
+    "width": 1080,
+    "height": 1350
   },
   {
     "slug": "valentines-limited-drop-price-2000-islandwide-shipping-free--65",
@@ -521,7 +649,9 @@
     "category": "posters",
     "title": "Valentines Limited Drop Price 2000 Islandwide Shipping Free Shipping On 3+ Orders",
     "brand": "Valentine's Campaign",
-    "src": "/projects/posters/valentines-limited-drop-price-2000-islandwide-shipping-free--65.jpg"
+    "src": "/projects/posters/valentines-limited-drop-price-2000-islandwide-shipping-free--65.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "valentines-limited-drop-price-2000-islandwide-shipping-free--66",
@@ -529,7 +659,9 @@
     "category": "posters",
     "title": "Valentines Limited Drop Price 2000 Islandwide Shipping Free Shipping On 3+ Orders",
     "brand": "Valentine's Campaign",
-    "src": "/projects/posters/valentines-limited-drop-price-2000-islandwide-shipping-free--66.jpg"
+    "src": "/projects/posters/valentines-limited-drop-price-2000-islandwide-shipping-free--66.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "valentines-limited-drop-price-2000-islandwide-shipping-free--67",
@@ -537,7 +669,9 @@
     "category": "posters",
     "title": "Valentines Limited Drop Price 2000 Islandwide Shipping Free Shipping On 3+ Orders",
     "brand": "Valentine's Campaign",
-    "src": "/projects/posters/valentines-limited-drop-price-2000-islandwide-shipping-free--67.jpg"
+    "src": "/projects/posters/valentines-limited-drop-price-2000-islandwide-shipping-free--67.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "valentines-limited-drop-price-2000-islandwide-shipping-free--68",
@@ -545,7 +679,9 @@
     "category": "posters",
     "title": "Valentines Limited Drop Price 2000 Islandwide Shipping Free Shipping On 3+ Orders",
     "brand": "Valentine's Campaign",
-    "src": "/projects/posters/valentines-limited-drop-price-2000-islandwide-shipping-free--68.jpg"
+    "src": "/projects/posters/valentines-limited-drop-price-2000-islandwide-shipping-free--68.jpg",
+    "width": 1600,
+    "height": 2000
   },
   {
     "slug": "app-promo-nubes-reel-02-69",
@@ -554,7 +690,9 @@
     "title": "App Promo Nubes Reel 02",
     "brand": "Nubes",
     "src": "/projects/reels/app-promo-nubes-reel-02-69.mp4",
-    "poster": "/projects/reels/app-promo-nubes-reel-02-69-poster.jpg"
+    "poster": "/projects/reels/app-promo-nubes-reel-02-69-poster.jpg",
+    "width": 960,
+    "height": 540
   },
   {
     "slug": "car-cleaning-motorover-70",
@@ -563,7 +701,9 @@
     "title": "Car Cleaning Motorover",
     "brand": "MotorOver",
     "src": "/projects/reels/car-cleaning-motorover-70.mp4",
-    "poster": "/projects/reels/car-cleaning-motorover-70-poster.jpg"
+    "poster": "/projects/reels/car-cleaning-motorover-70-poster.jpg",
+    "width": 960,
+    "height": 540
   },
   {
     "slug": "classic-reel-animation-goigoi-71",
@@ -572,7 +712,9 @@
     "title": "Classic Reel Animation Goigoi",
     "brand": "Giogoi Fashion",
     "src": "/projects/reels/classic-reel-animation-goigoi-71.mp4",
-    "poster": "/projects/reels/classic-reel-animation-goigoi-71-poster.jpg"
+    "poster": "/projects/reels/classic-reel-animation-goigoi-71-poster.jpg",
+    "width": 960,
+    "height": 540
   },
   {
     "slug": "cleaning-services-higlights-72",
@@ -581,7 +723,9 @@
     "title": "Cleaning Services Higlights",
     "brand": "Cleaning Services Co.",
     "src": "/projects/reels/cleaning-services-higlights-72.mp4",
-    "poster": "/projects/reels/cleaning-services-higlights-72-poster.jpg"
+    "poster": "/projects/reels/cleaning-services-higlights-72-poster.jpg",
+    "width": 960,
+    "height": 540
   },
   {
     "slug": "cleaning-services-promo-73",
@@ -590,7 +734,9 @@
     "title": "Cleaning Services Promo",
     "brand": "Cleaning Services Co.",
     "src": "/projects/reels/cleaning-services-promo-73.mp4",
-    "poster": "/projects/reels/cleaning-services-promo-73-poster.jpg"
+    "poster": "/projects/reels/cleaning-services-promo-73-poster.jpg",
+    "width": 540,
+    "height": 960
   },
   {
     "slug": "creative-product-selection-animation-74",
@@ -599,7 +745,9 @@
     "title": "Creative Product Selection Animation",
     "brand": null,
     "src": "/projects/reels/creative-product-selection-animation-74.mp4",
-    "poster": "/projects/reels/creative-product-selection-animation-74-poster.jpg"
+    "poster": "/projects/reels/creative-product-selection-animation-74-poster.jpg",
+    "width": 540,
+    "height": 960
   },
   {
     "slug": "dr-shakira-reel-promo-75",
@@ -608,7 +756,9 @@
     "title": "Dr.shakira Reel Promo",
     "brand": "Dr. Shakira Wellness",
     "src": "/projects/reels/dr-shakira-reel-promo-75.mp4",
-    "poster": "/projects/reels/dr-shakira-reel-promo-75-poster.jpg"
+    "poster": "/projects/reels/dr-shakira-reel-promo-75-poster.jpg",
+    "width": 540,
+    "height": 960
   },
   {
     "slug": "giogoi-clothing-brand-1-76",
@@ -617,7 +767,9 @@
     "title": "Giogoi Clothing Brand 1",
     "brand": "Giogoi Fashion",
     "src": "/projects/reels/giogoi-clothing-brand-1-76.mp4",
-    "poster": "/projects/reels/giogoi-clothing-brand-1-76-poster.jpg"
+    "poster": "/projects/reels/giogoi-clothing-brand-1-76-poster.jpg",
+    "width": 960,
+    "height": 540
   },
   {
     "slug": "giogoi-clothing-brand-77",
@@ -626,7 +778,9 @@
     "title": "Giogoi Clothing Brand",
     "brand": "Giogoi Fashion",
     "src": "/projects/reels/giogoi-clothing-brand-77.mp4",
-    "poster": "/projects/reels/giogoi-clothing-brand-77-poster.jpg"
+    "poster": "/projects/reels/giogoi-clothing-brand-77-poster.jpg",
+    "width": 960,
+    "height": 540
   },
   {
     "slug": "hijama-dr-shakira-78",
@@ -635,7 +789,9 @@
     "title": "Hijama Dr.shakira",
     "brand": "Dr. Shakira Wellness",
     "src": "/projects/reels/hijama-dr-shakira-78.mp4",
-    "poster": "/projects/reels/hijama-dr-shakira-78-poster.jpg"
+    "poster": "/projects/reels/hijama-dr-shakira-78-poster.jpg",
+    "width": 540,
+    "height": 960
   },
   {
     "slug": "hijama2-dr-shakira-79",
@@ -644,7 +800,9 @@
     "title": "Hijama2 Dr.shakira",
     "brand": "Dr. Shakira Wellness",
     "src": "/projects/reels/hijama2-dr-shakira-79.mp4",
-    "poster": "/projects/reels/hijama2-dr-shakira-79-poster.jpg"
+    "poster": "/projects/reels/hijama2-dr-shakira-79-poster.jpg",
+    "width": 540,
+    "height": 960
   },
   {
     "slug": "instore-video-shoot-80",
@@ -653,7 +811,9 @@
     "title": "Instore Video Shoot",
     "brand": "In-Store Shoot",
     "src": "/projects/reels/instore-video-shoot-80.mp4",
-    "poster": "/projects/reels/instore-video-shoot-80-poster.jpg"
+    "poster": "/projects/reels/instore-video-shoot-80-poster.jpg",
+    "width": 540,
+    "height": 960
   },
   {
     "slug": "nubes-sim-vlog-reel-01-81",
@@ -662,7 +822,9 @@
     "title": "Nubes Sim Vlog Reel 01",
     "brand": "Nubes",
     "src": "/projects/reels/nubes-sim-vlog-reel-01-81.mp4",
-    "poster": "/projects/reels/nubes-sim-vlog-reel-01-81-poster.jpg"
+    "poster": "/projects/reels/nubes-sim-vlog-reel-01-81-poster.jpg",
+    "width": 540,
+    "height": 960
   },
   {
     "slug": "post-animation-82",
@@ -671,7 +833,9 @@
     "title": "Post Animation",
     "brand": null,
     "src": "/projects/reels/post-animation-82.mp4",
-    "poster": "/projects/reels/post-animation-82-poster.jpg"
+    "poster": "/projects/reels/post-animation-82-poster.jpg",
+    "width": 720,
+    "height": 960
   },
   {
     "slug": "tredning-product-reel-83",
@@ -680,7 +844,9 @@
     "title": "Tredning Product Reel",
     "brand": null,
     "src": "/projects/reels/tredning-product-reel-83.mp4",
-    "poster": "/projects/reels/tredning-product-reel-83-poster.jpg"
+    "poster": "/projects/reels/tredning-product-reel-83-poster.jpg",
+    "width": 960,
+    "height": 540
   },
   {
     "slug": "video-prodcution-for-chocomart-84",
@@ -689,6 +855,8 @@
     "title": "Video Prodcution For Chocomart",
     "brand": "ChocoMart",
     "src": "/projects/reels/video-prodcution-for-chocomart-84.mp4",
-    "poster": "/projects/reels/video-prodcution-for-chocomart-84-poster.jpg"
+    "poster": "/projects/reels/video-prodcution-for-chocomart-84-poster.jpg",
+    "width": 960,
+    "height": 540
   }
 ]

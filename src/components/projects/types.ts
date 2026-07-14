@@ -12,4 +12,6 @@ export type ProjectItem = {
   brand: string | null;
   src: string;
   poster?: string;
+  width: number;
+  height: number;
 };

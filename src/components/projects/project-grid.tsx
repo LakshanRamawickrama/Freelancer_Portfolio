@@ -52,20 +52,21 @@ export function ProjectGrid({ items }: { items: ProjectItem[] }) {
         ))}
       </div>
 
-      <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+      <div className="mt-8 columns-2 gap-4 sm:columns-3 lg:columns-4">
         {visible.map((item, index) => (
           <button
             key={item.slug}
             type="button"
             onClick={() => setLightboxIndex(index)}
-            className="glass group relative aspect-[4/5] overflow-hidden rounded-xl text-left"
+            className="glass group relative mb-4 block w-full break-inside-avoid overflow-hidden rounded-xl text-left"
           >
             <Image
               src={item.type === "video" ? item.poster ?? item.src : item.src}
               alt={item.title}
-              fill
+              width={item.width}
+              height={item.height}
               sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-              className="object-cover transition-transform duration-300 group-hover:scale-105"
+              className="h-auto w-full object-cover transition-transform duration-300 group-hover:scale-105"
             />
             {item.type === "video" && (
               <span className="absolute inset-0 flex items-center justify-center bg-black/20">
