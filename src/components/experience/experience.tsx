@@ -12,6 +12,7 @@ const jobs = [
     period: "2024 — Present",
     title: "CEO & IT Executive / Social Media Marketing Specialist",
     place: "TechSerandib Elite Solutions (PVT) Ltd.",
+    placeHref: "https://www.techserandib.com/",
     points: [
       "Set business goals, brand strategy, and IT security for the company he founded",
       "Plans and runs content, paid ads, and conversion-focused campaigns for clients across industries",
@@ -62,34 +63,38 @@ const education = [
 
 export function Experience() {
   return (
-    <section
-      id="experience"
-      className="relative border-t border-black/5 py-24 dark:border-white/5"
-    >
+    <section id="experience" className="relative py-24">
       <div className="mx-auto max-w-6xl px-6 sm:px-8">
         <span className="text-sm font-semibold uppercase tracking-wider text-blue-600 dark:text-blue-400">
           Experience
         </span>
-        <h2 className="mt-3 max-w-2xl text-3xl font-bold tracking-tight text-zinc-950 sm:text-4xl dark:text-white">
+        <h2 className="font-heading mt-3 max-w-2xl text-3xl font-bold tracking-tight text-zinc-950 sm:text-4xl dark:text-white">
           Where the work happened
         </h2>
 
-        <div className="mt-14 grid grid-cols-1 gap-16 lg:grid-cols-5 lg:gap-12">
-          <ol className="relative border-l border-black/10 pl-8 lg:col-span-3 dark:border-white/10">
+        <div className="mt-14 grid grid-cols-1 gap-8 lg:grid-cols-5 lg:gap-6">
+          <ol className="flex flex-col gap-4 lg:col-span-3">
             {jobs.map((job) => (
-              <li key={job.title} className="mb-10 last:mb-0">
-                <span
-                  aria-hidden="true"
-                  className="absolute -left-[5px] mt-1.5 h-2.5 w-2.5 rounded-full bg-blue-600 dark:bg-blue-400"
-                />
-                <span className="text-sm font-medium text-zinc-500 dark:text-zinc-500">
+              <li key={job.title} className="glass rounded-2xl p-6">
+                <span className="text-sm font-medium text-blue-600 dark:text-blue-400">
                   {job.period}
                 </span>
                 <h3 className="mt-1 text-lg font-semibold text-zinc-950 dark:text-white">
                   {job.title}
                 </h3>
                 <p className="text-sm font-medium text-zinc-600 dark:text-zinc-400">
-                  {job.place}
+                  {job.placeHref ? (
+                    <a
+                      href={job.placeHref}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline decoration-zinc-400/50 underline-offset-2 hover:text-zinc-900 hover:decoration-zinc-900 dark:hover:text-zinc-200 dark:hover:decoration-zinc-200"
+                    >
+                      {job.place}
+                    </a>
+                  ) : (
+                    job.place
+                  )}
                 </p>
                 <ul className="mt-3 space-y-1.5">
                   {job.points.map((point) => (
@@ -109,14 +114,10 @@ export function Experience() {
             <h3 className="text-lg font-semibold text-zinc-950 dark:text-white">
               Education
             </h3>
-            <ol className="relative mt-5 border-l border-black/10 pl-8 dark:border-white/10">
+            <ol className="mt-5 flex flex-col gap-3">
               {education.map((item) => (
-                <li key={item.title} className="mb-8 last:mb-0">
-                  <span
-                    aria-hidden="true"
-                    className="absolute -left-[5px] mt-1.5 h-2.5 w-2.5 rounded-full bg-amber-500 dark:bg-amber-400"
-                  />
-                  <span className="text-sm font-medium text-zinc-500 dark:text-zinc-500">
+                <li key={item.title} className="glass rounded-2xl p-5">
+                  <span className="text-sm font-medium text-amber-600 dark:text-amber-400">
                     {item.period}
                   </span>
                   <h4 className="mt-1 text-base font-semibold text-zinc-950 dark:text-white">

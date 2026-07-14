@@ -48,21 +48,18 @@ const languages = [
 
 export function Skills() {
   return (
-    <section id="skills" className="relative border-t border-black/5 py-24 dark:border-white/5">
+    <section id="skills" className="relative py-24">
       <div className="mx-auto max-w-6xl px-6 sm:px-8">
         <span className="text-sm font-semibold uppercase tracking-wider text-blue-600 dark:text-blue-400">
           Skills & Expertise
         </span>
-        <h2 className="mt-3 max-w-2xl text-3xl font-bold tracking-tight text-zinc-950 sm:text-4xl dark:text-white">
+        <h2 className="font-heading mt-3 max-w-2xl text-3xl font-bold tracking-tight text-zinc-950 sm:text-4xl dark:text-white">
           Two disciplines, one toolkit
         </h2>
 
         <div className="mt-12 grid grid-cols-1 gap-6 lg:grid-cols-2">
           {skillGroups.map((group) => (
-            <div
-              key={group.title}
-              className="rounded-2xl border border-black/10 bg-zinc-50 p-8 dark:border-white/10 dark:bg-zinc-900/50"
-            >
+            <div key={group.title} className="glass rounded-2xl p-8">
               <h3 className={`text-lg font-semibold ${group.accent}`}>
                 {group.title}
               </h3>
@@ -93,7 +90,7 @@ export function Skills() {
               {softSkills.map((skill) => (
                 <span
                   key={skill}
-                  className="rounded-full border border-black/10 px-4 py-1.5 text-sm text-zinc-700 dark:border-white/10 dark:text-zinc-300"
+                  className="glass rounded-full px-4 py-1.5 text-sm text-zinc-700 dark:text-zinc-300"
                 >
                   {skill}
                 </span>

@@ -7,22 +7,27 @@ const stats = [
 
 export function About() {
   return (
-    <section id="about" className="relative border-t border-black/5 py-24 dark:border-white/5">
+    <section id="about" className="relative py-24">
       <div className="mx-auto grid max-w-6xl grid-cols-1 gap-16 px-6 sm:px-8 lg:grid-cols-5 lg:gap-12">
         <div className="lg:col-span-3">
           <span className="text-sm font-semibold uppercase tracking-wider text-blue-600 dark:text-blue-400">
             About Me
           </span>
-          <h2 className="mt-3 text-3xl font-bold tracking-tight text-zinc-950 sm:text-4xl dark:text-white">
+          <h2 className="font-heading mt-3 text-3xl font-bold tracking-tight text-zinc-950 sm:text-4xl dark:text-white">
             IT leadership and digital marketing, under one roof
           </h2>
 
           <div className="mt-6 space-y-4 text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
             <p>
               I&apos;m a highly motivated and adaptable professional running{" "}
-              <span className="font-semibold text-zinc-900 dark:text-zinc-200">
+              <a
+                href="https://www.techserandib.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-zinc-900 underline decoration-blue-600/40 underline-offset-2 hover:decoration-blue-600 dark:text-zinc-200 dark:decoration-blue-400/40 dark:hover:decoration-blue-400"
+              >
                 TechSerandib Elite Solutions
-              </span>
+              </a>
               , where I wear two hats: as{" "}
               <span className="font-semibold text-zinc-900 dark:text-zinc-200">
                 CEO & IT Executive
@@ -48,10 +53,7 @@ export function About() {
 
         <div className="grid grid-cols-2 gap-4 self-start lg:col-span-2">
           {stats.map((stat) => (
-            <div
-              key={stat.label}
-              className="rounded-2xl border border-black/10 bg-zinc-50 p-6 dark:border-white/10 dark:bg-zinc-900/50"
-            >
+            <div key={stat.label} className="glass rounded-2xl p-6">
               <div className="text-3xl font-bold text-zinc-950 dark:text-white">
                 {stat.value}
               </div>

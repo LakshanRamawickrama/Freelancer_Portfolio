@@ -39,15 +39,12 @@ const resumes = [
 
 export function Contact() {
   return (
-    <section
-      id="contact"
-      className="relative border-t border-black/5 py-24 dark:border-white/5"
-    >
+    <section id="contact" className="relative py-24">
       <div className="mx-auto max-w-6xl px-6 sm:px-8">
         <span className="text-sm font-semibold uppercase tracking-wider text-blue-600 dark:text-blue-400">
           Get In Touch
         </span>
-        <h2 className="mt-3 max-w-2xl text-3xl font-bold tracking-tight text-zinc-950 sm:text-4xl dark:text-white">
+        <h2 className="font-heading mt-3 max-w-2xl text-3xl font-bold tracking-tight text-zinc-950 sm:text-4xl dark:text-white">
           Let&apos;s work together
         </h2>
         <p className="mt-4 max-w-xl text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
@@ -62,7 +59,7 @@ export function Contact() {
               href={item.href}
               target={item.href.startsWith("http") ? "_blank" : undefined}
               rel={item.href.startsWith("http") ? "noopener noreferrer" : undefined}
-              className="rounded-2xl border border-black/10 bg-zinc-50 p-6 transition-colors hover:border-blue-600/40 dark:border-white/10 dark:bg-zinc-900/50 dark:hover:border-blue-400/40"
+              className="glass rounded-2xl p-6 transition-colors hover:bg-black/[0.03] dark:hover:bg-white/[0.08]"
             >
               <div className="text-sm font-medium text-zinc-500 dark:text-zinc-400">
                 {item.label}
@@ -80,7 +77,7 @@ export function Contact() {
               key={resume.label}
               href={resume.href}
               download
-              className="flex items-center gap-2 rounded-full border border-black/10 px-6 py-3 text-sm font-semibold text-zinc-800 transition-colors hover:border-black/20 hover:bg-black/5 dark:border-white/15 dark:text-zinc-200 dark:hover:border-white/25 dark:hover:bg-white/5"
+              className="glass flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold text-zinc-800 transition-colors hover:bg-black/[0.03] dark:text-zinc-200 dark:hover:bg-white/[0.08]"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

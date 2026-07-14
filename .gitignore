@@ -36,6 +36,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# source assets not needed by the deployed site (raw CVs, reference template, unprocessed media)
+/temp/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

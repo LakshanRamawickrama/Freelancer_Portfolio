@@ -7,9 +7,14 @@ export function SiteFooter() {
         <span className="text-sm text-zinc-500 dark:text-zinc-500">
           © {year} Mohamed Fahad. All rights reserved.
         </span>
-        <span className="text-sm text-zinc-500 dark:text-zinc-500">
+        <a
+          href="https://www.techserandib.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sm text-zinc-500 hover:text-zinc-800 dark:text-zinc-500 dark:hover:text-zinc-300"
+        >
           TechSerandib Elite Solutions (PVT) Ltd.
-        </span>
+        </a>
       </div>
     </footer>
   );
