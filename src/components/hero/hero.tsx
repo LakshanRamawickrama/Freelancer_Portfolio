@@ -47,16 +47,21 @@ export function Hero() {
           </div>
         </div>
 
-        {/* Right: cutout portrait, anchored to the corner */}
-        <div className="relative order-1 flex h-[380px] items-end justify-center lg:order-2 lg:h-[640px] lg:justify-end">
-          <div className="relative h-full w-full max-w-[420px] lg:max-w-none lg:translate-x-6">
+        {/* Right: cutout portrait, contained in a glass frame */}
+        <div className="relative order-1 flex justify-center lg:order-2 lg:justify-end">
+          <div className="glass relative h-[420px] w-full max-w-[360px] overflow-hidden rounded-[2rem] lg:h-[600px] lg:max-w-[440px]">
+            <div
+              aria-hidden="true"
+              className="absolute left-1/2 top-1/3 h-[70%] w-[70%] -translate-x-1/2 -translate-y-1/2 rounded-full blur-3xl"
+              style={{ background: "var(--accent-glow)" }}
+            />
             <Image
               src="/images/fahad-suit-black.png"
               alt="Mohamed Fahad"
               width={750}
               height={1000}
               priority
-              className="absolute bottom-0 right-0 h-full w-auto object-contain object-bottom drop-shadow-2xl dark:hidden"
+              className="absolute bottom-0 left-1/2 h-[95%] w-auto -translate-x-1/2 object-contain object-bottom dark:hidden"
             />
             <Image
               src="/images/fahad-suit-white.png"
@@ -64,7 +69,7 @@ export function Hero() {
               width={750}
               height={1000}
               priority
-              className="absolute bottom-0 right-0 hidden h-full w-auto object-contain object-bottom drop-shadow-2xl dark:block"
+              className="absolute bottom-0 left-1/2 hidden h-[95%] w-auto -translate-x-1/2 object-contain object-bottom dark:block"
             />
           </div>
 
@@ -73,7 +78,7 @@ export function Hero() {
             href="https://www.techserandib.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="glass absolute left-0 top-6 z-10 hidden rounded-xl px-4 py-3 transition-colors hover:bg-black/[0.03] lg:flex lg:flex-col dark:hover:bg-white/[0.08]"
+            className="glass absolute -left-4 top-10 z-10 hidden rounded-xl px-4 py-3 transition-colors hover:bg-black/[0.03] lg:flex lg:flex-col dark:hover:bg-white/[0.08]"
           >
             <span className="text-xs font-medium text-zinc-500 dark:text-zinc-400">
               Own Business
@@ -82,7 +87,7 @@ export function Hero() {
               TechSerandib Elite Solutions
             </span>
           </a>
-          <div className="glass absolute bottom-8 left-0 z-10 hidden rounded-xl px-4 py-3 lg:flex lg:flex-col">
+          <div className="glass absolute -left-4 bottom-10 z-10 hidden rounded-xl px-4 py-3 lg:flex lg:flex-col">
             <span className="text-xs font-medium text-zinc-500 dark:text-zinc-400">
               Freelance
             </span>
