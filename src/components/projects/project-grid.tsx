@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Image from "next/image";
 import type { ProjectCategory, ProjectItem } from "@/components/projects/types";
 import { Lightbox } from "@/components/projects/lightbox";
@@ -15,10 +15,80 @@ const TABS: { key: ProjectCategory | "all"; label: string }[] = [
 
 const PAGE_SIZE = 12;
 
+function useColumnCount() {
+  const [columns, setColumns] = useState(4);
+
+  useEffect(() => {
+    const lgQuery = window.matchMedia("(min-width: 1024px)");
+    const smQuery = window.matchMedia("(min-width: 640px)");
+
+    const update = () => {
+      if (lgQuery.matches) setColumns(4);
+      else if (smQuery.matches) setColumns(3);
+      else setColumns(2);
+    };
+
+    update();
+    lgQuery.addEventListener("change", update);
+    smQuery.addEventListener("change", update);
+    return () => {
+      lgQuery.removeEventListener("change", update);
+      smQuery.removeEventListener("change", update);
+    };
+  }, []);
+
+  return columns;
+}
+
+function ProjectCard({
+  item,
+  onClick,
+}: {
+  item: ProjectItem;
+  onClick: () => void;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      className="glass group relative block w-full overflow-hidden rounded-xl text-left"
+    >
+      <Image
+        src={item.type === "video" ? item.poster ?? item.src : item.src}
+        alt={item.title}
+        width={item.width}
+        height={item.height}
+        sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+        className="h-auto w-full object-cover transition-transform duration-300 group-hover:scale-105"
+      />
+      {item.type === "video" && (
+        <span className="absolute inset-0 flex items-center justify-center bg-black/20">
+          <span className="flex h-12 w-12 items-center justify-center rounded-full bg-white/90">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              className="ml-0.5 h-5 w-5 text-zinc-900"
+            >
+              <path d="M8 5v14l11-7z" />
+            </svg>
+          </span>
+        </span>
+      )}
+      <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent px-3 py-3 opacity-0 transition-opacity group-hover:opacity-100">
+        <span className="block truncate text-xs font-semibold text-white">
+          {item.brand ?? item.title}
+        </span>
+      </span>
+    </button>
+  );
+}
+
 export function ProjectGrid({ items }: { items: ProjectItem[] }) {
   const [activeTab, setActiveTab] = useState<ProjectCategory | "all">("all");
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
+  const columnCount = useColumnCount();
 
   const filtered = useMemo(
     () =>
@@ -29,6 +99,28 @@ export function ProjectGrid({ items }: { items: ProjectItem[] }) {
   );
 
   const visible = filtered.slice(0, visibleCount);
+
+  // Distribute items into columns by always adding to the currently-shortest
+  // column (by aspect-ratio-based height), so columns end at roughly the same
+  // height instead of leaving CSS multi-column's uneven trailing gaps.
+  const columns = useMemo(() => {
+    const cols: { item: ProjectItem; index: number }[][] = Array.from(
+      { length: columnCount },
+      () => [],
+    );
+    const heights = new Array(columnCount).fill(0);
+
+    visible.forEach((item, index) => {
+      let shortest = 0;
+      for (let i = 1; i < columnCount; i++) {
+        if (heights[i] < heights[shortest]) shortest = i;
+      }
+      cols[shortest].push({ item, index });
+      heights[shortest] += item.height / item.width;
+    });
+
+    return cols;
+  }, [visible, columnCount]);
 
   return (
     <div>
@@ -52,37 +144,17 @@ export function ProjectGrid({ items }: { items: ProjectItem[] }) {
         ))}
       </div>
 
-      <div className="mt-8 columns-2 gap-4 sm:columns-3 lg:columns-4">
-        {visible.map((item, index) => (
-          <button
-            key={item.slug}
-            type="button"
-            onClick={() => setLightboxIndex(index)}
-            className="glass group relative mb-4 block w-full break-inside-avoid overflow-hidden rounded-xl text-left"
-          >
-            <Image
-              src={item.type === "video" ? item.poster ?? item.src : item.src}
-              alt={item.title}
-              width={item.width}
-              height={item.height}
-              sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-              className="h-auto w-full object-cover transition-transform duration-300 group-hover:scale-105"
-            />
-            {item.type === "video" && (
-              <span className="absolute inset-0 flex items-center justify-center bg-black/20">
-                <span className="flex h-12 w-12 items-center justify-center rounded-full bg-white/90">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="ml-0.5 h-5 w-5 text-zinc-900">
-                    <path d="M8 5v14l11-7z" />
-                  </svg>
-                </span>
-              </span>
-            )}
-            <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent px-3 py-3 opacity-0 transition-opacity group-hover:opacity-100">
-              <span className="block truncate text-xs font-semibold text-white">
-                {item.brand ?? item.title}
-              </span>
-            </span>
-          </button>
+      <div className="mt-8 flex gap-4">
+        {columns.map((col, colIndex) => (
+          <div key={colIndex} className="flex flex-1 flex-col gap-4">
+            {col.map(({ item, index }) => (
+              <ProjectCard
+                key={item.slug}
+                item={item}
+                onClick={() => setLightboxIndex(index)}
+              />
+            ))}
+          </div>
         ))}
       </div>
 
