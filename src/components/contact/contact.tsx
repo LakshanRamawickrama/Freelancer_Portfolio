@@ -1,3 +1,5 @@
+import { ContactForm } from "@/components/contact/contact-form";
+
 const contactLinks = [
   {
     label: "Email",
@@ -52,44 +54,52 @@ export function Contact() {
           support, and social media / ad management projects.
         </p>
 
-        <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {contactLinks.map((item) => (
-            <a
-              key={item.label}
-              href={item.href}
-              target={item.href.startsWith("http") ? "_blank" : undefined}
-              rel={item.href.startsWith("http") ? "noopener noreferrer" : undefined}
-              className="glass rounded-2xl p-6 transition-colors hover:bg-black/[0.03] dark:hover:bg-white/[0.08]"
-            >
-              <div className="text-sm font-medium text-zinc-500 dark:text-zinc-400">
-                {item.label}
-              </div>
-              <div className="mt-1 truncate text-base font-semibold text-zinc-950 dark:text-white">
-                {item.value}
-              </div>
-            </a>
-          ))}
-        </div>
+        <div className="mt-10 grid grid-cols-1 gap-8 lg:grid-cols-5 lg:gap-8">
+          <div className="lg:col-span-3">
+            <ContactForm />
+          </div>
 
-        <div className="mt-12 flex flex-wrap gap-4">
-          {resumes.map((resume) => (
-            <a
-              key={resume.label}
-              href={resume.href}
-              download
-              className="glass flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold text-zinc-800 transition-colors hover:bg-black/[0.03] dark:text-zinc-200 dark:hover:bg-white/[0.08]"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                className="h-4 w-4"
-              >
-                <path d="M12 3a.75.75 0 0 1 .75.75v10.19l3.22-3.22a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 1 1 1.06-1.06l3.22 3.22V3.75A.75.75 0 0 1 12 3ZM4.5 16.5a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 0 .75.75h12a.75.75 0 0 0 .75-.75v-2.25a.75.75 0 0 1 1.5 0v2.25a2.25 2.25 0 0 1-2.25 2.25h-12a2.25 2.25 0 0 1-2.25-2.25v-2.25a.75.75 0 0 1 .75-.75Z" />
-              </svg>
-              Download {resume.label}
-            </a>
-          ))}
+          <div className="lg:col-span-2">
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-1">
+              {contactLinks.map((item) => (
+                <a
+                  key={item.label}
+                  href={item.href}
+                  target={item.href.startsWith("http") ? "_blank" : undefined}
+                  rel={item.href.startsWith("http") ? "noopener noreferrer" : undefined}
+                  className="glass rounded-2xl p-6 transition-colors hover:bg-black/[0.03] dark:hover:bg-white/[0.08]"
+                >
+                  <div className="text-sm font-medium text-zinc-500 dark:text-zinc-400">
+                    {item.label}
+                  </div>
+                  <div className="mt-1 truncate text-base font-semibold text-zinc-950 dark:text-white">
+                    {item.value}
+                  </div>
+                </a>
+              ))}
+            </div>
+
+            <div className="mt-6 flex flex-wrap gap-4">
+              {resumes.map((resume) => (
+                <a
+                  key={resume.label}
+                  href={resume.href}
+                  download
+                  className="glass flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold text-zinc-800 transition-colors hover:bg-black/[0.03] dark:text-zinc-200 dark:hover:bg-white/[0.08]"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    className="h-4 w-4"
+                  >
+                    <path d="M12 3a.75.75 0 0 1 .75.75v10.19l3.22-3.22a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 1 1 1.06-1.06l3.22 3.22V3.75A.75.75 0 0 1 12 3ZM4.5 16.5a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 0 .75.75h12a.75.75 0 0 0 .75-.75v-2.25a.75.75 0 0 1 1.5 0v2.25a2.25 2.25 0 0 1-2.25 2.25h-12a2.25 2.25 0 0 1-2.25-2.25v-2.25a.75.75 0 0 1 .75-.75Z" />
+                  </svg>
+                  Download {resume.label}
+                </a>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </section>
